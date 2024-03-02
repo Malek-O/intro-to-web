@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F2FFF9;
+    font-family: 'Lucida Sans';
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav {
+    padding: 1rem;
+    background-color: #555843;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h3 {
+    color: white;
+}
+
+nav div {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+nav div button {
+    border: none;
+    background-color: #A7D397;
+    padding: 0.5rem;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+main{
+    margin-top: 8rem;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 2.5rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+main h1 span {
+    color: #A7D397;
+}
+main p{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+
+section{
+    display: flex;
+    margin-top: 8rem;
+    justify-content: space-evenly;
+}
+
+
+section div {
+    width: 13rem;
+    min-height: 6rem;
+    background-color: #D0D4CA;
+    border-top: 20px solid #A7D397 ;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+svg{
+    width: 20px;
+    height: 20px;
+}
+
+summary{
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+summary a {
+    text-decoration: none;
+    color: #555843;
+}
+
+
+aside{
+    flex-grow: 1;
+}
+footer{
+    margin-top: 3rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: #555843;
+    color: white;
+}
